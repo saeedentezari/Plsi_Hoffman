@@ -8,4 +8,5 @@ which is based on linear algebra and performs a Sigular Value Decomposition of c
 
 You can obtain a similarity metric for documents and/or terms by this model. Anything similar to term-document structure can be considered by this model,
 for example user-purchase, which each user (~ document) can have multiple purchases (~ terms), and then you can gain the similarity of users or purchases.
-`p
+
+You can find my functional implementation of PLSI in the `plsimodel.ipynb` file. It's not OOP implementation, but it's easy to create a `PlsiModel` class then.
